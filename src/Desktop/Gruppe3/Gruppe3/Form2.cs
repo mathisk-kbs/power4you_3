@@ -21,5 +21,10 @@ namespace Gruppe3
         {
 
         }
+
+        private void menuStrip2_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
     }
 }
