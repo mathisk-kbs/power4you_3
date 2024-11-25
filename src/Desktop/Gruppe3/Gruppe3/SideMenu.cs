@@ -19,12 +19,16 @@ namespace Gruppe3
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+            Form2 form = new Form2();
+            form.Show();
+            this.ParentForm.Hide();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            
+            Form1 form = new Form1();
+            form.Show();
+            this.ParentForm.Hide();
         }
     }
 }
