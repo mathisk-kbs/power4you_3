@@ -55,6 +55,7 @@
             this.label13 = new System.Windows.Forms.Label();
             this.textBox11 = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.sideMenu1 = new Gruppe3.SideMenu();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -313,11 +314,19 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
+            // sideMenu1
+            // 
+            this.sideMenu1.Location = new System.Drawing.Point(13, 5);
+            this.sideMenu1.Name = "sideMenu1";
+            this.sideMenu1.Size = new System.Drawing.Size(171, 433);
+            this.sideMenu1.TabIndex = 27;
+            // 
             // CreateCustomerForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.sideMenu1);
             this.Controls.Add(this.textBox11);
             this.Controls.Add(this.textBox10);
             this.Controls.Add(this.label12);
@@ -381,5 +390,6 @@
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.TextBox textBox11;
         private System.Windows.Forms.GroupBox groupBox1;
+        private SideMenu sideMenu1;
     }
 }
